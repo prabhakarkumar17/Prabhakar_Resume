@@ -1,0 +1,126 @@
+    body {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .top_container {
+        background-color: #beebe9;
+    }
+    
+    h1 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 4.5em;
+        margin: 80px auto 0 auto;
+        padding-bottom: 10px;
+    }
+    
+    p {
+        margin-bottom: 0;
+        font-family: cursive;
+        font-size: 2em;
+    }
+    
+    .domain {
+        padding-bottom: 15px;
+    }
+    
+    .cloud1 {
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+    
+    .cloud2 {
+        position: absolute;
+    }
+    
+    .profile_image,
+    .blockchain_image,
+    .web_image {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+    }
+    
+    .blockchain_image {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .web_image {
+        float: right;
+    }
+    
+    .skill_row {
+        text-align: left;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .top_container {
+        position: relative;
+        padding-top: 100px;
+    }
+    
+    .section_heading {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    
+    a,
+    h3,
+    h2 {
+        color: #11999E;
+    }
+    
+    .profile,
+    .skills {
+        font-size: 10px;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .line_1 {
+        width: 40%;
+        margin: 100px auto;
+    }
+    
+    .btn {
+        background-color: rebeccapurple;
+        color: white;
+        width: 40%;
+        font-size: 30px;
+        border: 2px solid yellowgreen;
+        border-radius: 10%;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .proposal {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .bottom_container {
+        background-color: cornflowerblue;
+        height: 200px;
+        text-align: center;
+        margin: 50px auto 50px auto;
+    }
+    
+    .footer_link {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 15px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: antiquewhite;
+        margin-top: 20px;
+    }
+    
+    .copyright {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
