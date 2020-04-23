@@ -5,6 +5,7 @@
     
     .top_container {
         background-color: #beebe9;
+        margin-bottom: 30px;
     }
     
     h1 {
@@ -18,6 +19,7 @@
         margin-bottom: 0;
         font-family: cursive;
         font-size: 2em;
+        line-height: 2;
     }
     
     .domain {
@@ -32,6 +34,7 @@
     
     .cloud2 {
         position: absolute;
+        left: 150px;
     }
     
     .profile_image,
@@ -55,6 +58,7 @@
         text-align: left;
         width: 60%;
         margin: auto;
+        padding-bottom: 28px;
     }
     
     .top_container {
@@ -88,14 +92,18 @@
     }
     
     .btn {
-        background-color: rebeccapurple;
+        background-color: lightseagreen;
         color: white;
-        width: 40%;
-        font-size: 30px;
-        border: 2px solid yellowgreen;
-        border-radius: 10%;
+        width: 30%;
+        font-size: 20px;
+        border-radius: 30px;
         padding: 10px;
         text-decoration: none;
+        margin-bottom: 20px;
+    }
+    
+    .btn:hover {
+        background-color: darkcyan;
     }
     
     .proposal {
@@ -107,20 +115,25 @@
         background-color: cornflowerblue;
         height: 200px;
         text-align: center;
-        margin: 50px auto 50px auto;
     }
     
     .footer_link {
         text-decoration: none;
         font-size: 20px;
         padding: 15px;
-        margin-bottom: 50px;
         text-align: center;
-        color: antiquewhite;
-        margin-top: 20px;
+        color: rgb(192, 112, 8);
+        position: relative;
+        top: 70px;
+    }
+    
+    .footer_link:hover {
+        color: white;
     }
     
     .copyright {
         font-size: 18px;
         margin-bottom: 0;
+        position: relative;
+        top: 70px;
     }
